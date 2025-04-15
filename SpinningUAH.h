@@ -1,0 +1,23 @@
+#ifndef SPINNINGUAH_H
+#define SPINNINGUAH_H
+
+#include <GL/gl.h>
+#include <math.h>
+#include <stdbool.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <time.h>
+#include <string.h>
+#include <SDL2/SDL.h>
+#include <AL/al.h>
+#include <wchar.h>
+#define GLM_FORCE_RADIANS
+#include <glm/glm.hpp>
+#include <glm/gtc/type_ptr.hpp>
+#include <glm/gtc/matrix_transform.hpp>
+#define STBI_NO_PSD
+#define STBI_NO_GIF
+#define STBI_NO_HDR
+#define STBI_NO_PIC
+#define STBI_NO_PNM
+#endif //SPINNINGUAH_H
